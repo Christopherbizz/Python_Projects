@@ -1,0 +1,37 @@
+Step 1: Install Python:
+
+Download and install Python from python.org.
+Verify Python Installation:
+
+Step 2: Open PowerShell.
+Type python and press Enter. You should see Python version information.
+
+Step 3: Download Your Script:
+
+If you haven't already, download your Python script.
+For example, let's say your script is named browsing.py and is on your desktop.
+
+Step 4: Open PowerShell:
+
+Search for "PowerShell" in the Start menu and open it.
+
+Step 5: Navigate to the Script Directory:
+
+Type cd C:\Users\Chris\Desktop and press Enter.
+This command changes your directory to the desktop where your script is located.
+
+Step 6: Run the Script:
+
+Type python browsing.py and press Enter.
+This command runs your Python script.
+
+Step 7: Troubleshooting:
+
+If there are any issues:
+Check Python Installation: Make sure Python is installed.
+Verify Script Path: Confirm the path to your script is correct.
+Check Python Version: Ensure you're using a compatible version of Python.
+Syntax Errors: Check for errors in your script.
+Further Assistance:
+
+For more help, consult Python documentation or online resources.
