@@ -1,0 +1,15 @@
+import webbrowser
+
+# Define the search query
+query = "Is tomato a fruit?"
+
+# URL to perform a Google search
+url = f"https://www.google.com/search?q={query}"
+
+# Path to the Chrome executable
+chrome_path = "C:/Program Files/Google/Chrome/Application/chrome.exe"  # Modify this path according to your system
+
+# Command to open the URL in Chrome
+webbrowser.register('chrome', None, webbrowser.BackgroundBrowser(chrome_path))
+webbrowser.get('chrome').open_new(url)
+
